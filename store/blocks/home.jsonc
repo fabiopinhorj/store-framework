@@ -25,6 +25,7 @@
       "textAlignment": "center"
     }
   },
+  
   "info-card#button-left": {
     "props": {
       "textPosition": "left",
