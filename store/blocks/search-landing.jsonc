@@ -8,7 +8,7 @@
 
   "search-result-layout.customQuery": {
     "props": {
-      "QuerySchema": {
+      "querySchema": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
