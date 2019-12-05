@@ -1,9 +1,6 @@
 {
   "store.search": {
-     "blocks": ["search-result-layout"],
-     "props": {
-       "search-fetch-more": "show-more"
-     }
+     "blocks": ["search-result-layout"]
   },
   "search-result-layout": {
      "blocks": [
@@ -23,6 +20,9 @@
       "search-content",
       "filter-navigator.v3",
       "search-fetch-more"
-    ]
+    ],
+    "props": {
+      "pagination": "show-more"
+    }
   }
  }
