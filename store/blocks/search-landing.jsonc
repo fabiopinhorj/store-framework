@@ -13,27 +13,14 @@
       "maxItemsPerPage": 8,
       "queryField": "Blue Top Retro Camera",
       "mapField": "ft"
-    },
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
-
-  "search-result-layout.desktop": {
-    "children":[
-      "breadcrumb.search",
-      "search-title.v2"
-    ],
-    "props": {
-      "pagination": "show-more"
     }
   },
+  
 
   "image#landingbanner": {
     "props": {
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1"
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+      "minWidth": "100%"
     }
   }
 }
