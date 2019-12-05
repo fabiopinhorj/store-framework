@@ -26,7 +26,7 @@
   },
   "tab-list.item#home2": {
     "props": {
-      "tabId": "majorAppliances",
+      "tabId": "electronics",
       "label": "Electronics",
       "defaultActiveTab": true
     }
@@ -122,42 +122,6 @@
       "tabId": "majorAppliances",
       "label": "Major Appliances",
       "defaultActiveTab": true
-    }
-  },
-  "tab-list.item#2": {
-    "props": {
-      "tabId": "electronics",
-      "label": "Electronics"
-    }
-  },
-  "tab-content.item#1": {
-    "children": [
-      "rich-text#1"
-    ],
-    "props": {
-      "tabId": "majorAppliances"
-    }
-  },
-  "tab-content.item#2": {
-    "children": [
-      "rich-text#2"
-    ],
-    "props": {
-      "tabId": "electronics"
-    }
-  },
-  "rich-text#1": {
-    "props": {
-      "text": "Texto para Major Appliances",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
-    }
-  },
-  "rich-text#2": {
-    "props": {
-      "text": "Texto para Electronics",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
     }
   }
  }
